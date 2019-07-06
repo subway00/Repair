@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	
+	margin:0px;
+	padding: 0px;
+	
+} 
+
+.container-fluid {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "微軟正黑體","sans-serif";
+    font-size: 30px;
+	
+}
+
+.header {
+	position:relative;
+	box-shadow: 0 3px 5px 3px #C3C3C3 ;
+}
+
+.logo{	}
+
+.logo img{
+	width:180px;
+	margin: 15px 0 0px 10px;
+	
+}
+
+.logo b {
+    position: absolute;
+    left: 215px;
+    top: 93px;
+	font-size: 18px;
+	color:#8C8C8C;
+	width:300px;
+	
+}
+
+.nav {
+	
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+	
+}
+
+.options {
+	font-size: 40px;
+	padding-right: 50px;
+	
+	
+}
+
+.options a {
+	    color:#000000;
+	    margin-top:8px;
+	    text-decoration: none;
+	    float:right;
+	    width:240px;
+	    height: 120px;
+	    text-align: center;
+	    line-height: 130px;
+}
+
+.options .a1  {  	
+	    border-bottom:#00B4AA solid;
+	    border-bottom-width: 4px;
+         color: #000000;		 	
+}
+
+
+.options .a2 {
+	    border-bottom:#FF0096 solid;
+	    border-bottom-width: 5px;
+        color: #000000;		 	
+	
+}
+
+.options .a3 {
+	    border-bottom:#00B4AA solid;
+	border-bottom-width: 3px;
+         color: #000000;
+
+	
+}
+
+.options .a1:hover  { 
+    background-color:#00B4AA ;
+	color:aliceblue;
+	text-decoration: none;
+	   		 	
+}
+
+
+.options .a2:hover {
+    background-color:#FF0096;
+	color:aliceblue;    	 	
+	text-decoration: none;
+}
+
+.options .a3:hover {
+	background-color:#00B4AA ;
+	color:aliceblue; 
+	text-decoration: none;
+}
+
+.content {
+ height:750px;	
+display: flex;
+	
+}
+
+.register-box{
+	margin-top: 50px;
+	
+}
+
+.email-box{
+	width:600px;
+	
+}
+
+.email-box input {
+	margin: -5px 0 30px 0;
+	
+}
+
+.birth-box input {
+	width: 600px;
+	margin-top:5px;
+	
+}
+
+.gender-check{
+	margin: 25px 0 25px 0;
+	
+}
+
+.pass-box #inputPassword {
+	margin-top:-10px;
+	width:600px;
+}
+
+.pass-box #inputConfirmPassword {
+	width:600px;
+	
+}
+
+.pass-box small{
+	font-size: 18px;
+	margin-top: -5px;
+	
+}
+
+.agreement-box {
+	font-size: 20px;
+
+}
+
+.agreement-box a {
+		color:#FF0096;
+}
+
+.button-box button {
+	width:200px;
+	height: 60px;
+	margin-top: 10px;
+	font-size: 20px;
+	
+}
+.footer{
+	background-color:#707070;
+	color:#FFFFFF;
+    margin-top:50px;
+	
+}
+.footertext {
+	margin: 10px 40px 10px 40px;
+ 
+	
+}
+
+
+
+
+
+
